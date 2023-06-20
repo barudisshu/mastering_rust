@@ -1,0 +1,16 @@
+[package]
+name = "mastering_rust"
+version = "0.1.0"
+authors = ["Galudisu <galudisu@gmail.com>"]
+edition = "2021"
+
+license = "MIT/Apache-2.0"
+readme = "README.adoc"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+bytes = "1.2.1"
+uuid = { version = "1.2.2", features = ["v4"] }
+mastering_rust_algorithm = { version = "0.1.0", path = "../mastering_rust_algorithm" }

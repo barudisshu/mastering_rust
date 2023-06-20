@@ -1,4 +1,7 @@
-*.idea
+
 /target
 **/*.rs.bk
+.idea/
 Cargo.lock
+**/*.exe
+**/*.pdb
