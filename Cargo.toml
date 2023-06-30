@@ -2,7 +2,7 @@
 resolver = "2"
 
 members = [
-    "mastering_rust",
-    "mastering_rust_algorithm"
+    "chap01",
+    "algorithm"
 ]
 

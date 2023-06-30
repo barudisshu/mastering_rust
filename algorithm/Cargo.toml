@@ -1,5 +1,5 @@
 [package]
-name = "mastering_rust_algorithm"
+name = "algorithm"
 version = "0.1.0"
 edition = "2021"
 

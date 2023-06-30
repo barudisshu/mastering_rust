@@ -8,12 +8,8 @@
 #![feature(generators)]
 #![feature(generator_trait)]
 
+use crate::_01_basic::*;
+use crate::_02_analysis::*;
 
-// crate 相当于project
-use crate::chap01::*;
-use crate::chap02::*;
-
-// mod 相当于namespace
-mod chap01;
-mod chap02;
-
+mod _01_basic;
+mod _02_analysis;
